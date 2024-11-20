@@ -139,7 +139,8 @@ h6 {
 
 .navbar > ul > li {
   white-space: nowrap;
-  padding: 10px 0 10px 22px;
+  /* padding: 10px 0 10px 22px; */
+  padding: 23px 15px 27px 15px;
 }
 
 .navbar a,
@@ -185,12 +186,22 @@ h6 {
   width: 100%;
 }
 
+.navbar .active
+{
+  color:#F0EFED;
+  border-bottom: 2px solid #F0EFED;
+}
+
 .navbar a:hover,
-.navbar .active,
 .navbar .active:focus,
 .navbar li:hover > a {
-  color: #DFC9BB;
+  color:#126973;
 }
+
+.navbar li:not(:last-child):hover {
+  background-color: #F0EFED; /* Apply background color on hover for all except the last li */
+}
+
 
 .navbar .getstarted,
 .navbar .getstarted:focus {
@@ -205,8 +216,8 @@ h6 {
 
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
-  color: #fff;
-  background: #126973;
+  color: #126973;;
+  background: #F0EFED;
 }
 
 .navbar .getstarted:hover:before,
@@ -1614,14 +1625,14 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #111111;
+  background: #126973;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #1d1d1d;
+  background: #126973;
   border-bottom: 1px solid #2f2f2f;
   padding: 60px 0 30px 0;
 }
