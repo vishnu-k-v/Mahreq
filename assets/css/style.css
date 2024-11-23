@@ -766,7 +766,7 @@ section {
 }
 
 .clients2 .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ffc451;
+  background-color: #fffef9;
 }
 
 /*--------------------------------------------------------------
@@ -1698,7 +1698,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #ffc451;
+  color: #fff;
   font-size: 18px;
   line-height: 1;
 }
@@ -1721,7 +1721,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #ffc451;
+  color: #fff;
 }
 
 #footer .footer-top .footer-newsletter form {
@@ -1865,7 +1865,7 @@ section {
 
 .connect {
   background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../img/contact_us_bg.jpg") fixed center center;
+    url("../img/contactus2.jpg") fixed center center;
   background-size: cover;
   padding: 60px 0;
   color: white;
@@ -1873,7 +1873,7 @@ section {
 
 .cta {
   background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../img/slide/slide-2.jpg") center center no-repeat;
+    url("../img/slide/slide10.jpg") center center no-repeat;
   background-size: cover;
   padding: 60px 0;
   color: white;
@@ -1949,7 +1949,7 @@ section {
 .testimonials .testimonial-item .testimonial-img {
   width: 100px;
   border-radius: 50%;
-  border: 6px solid rgba(255, 255, 255, 0.15);
+  border: 6px solid rgb(252, 243, 243);
   margin: 0 auto;
 }
 
@@ -2004,7 +2004,7 @@ section {
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ffc451;
+  background-color: #126973;
   opacity: 1;
 }
 
