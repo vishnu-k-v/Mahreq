@@ -151,17 +151,24 @@
   let heroCarouselIndicators = select("#hero-carousel-indicators");
   let heroCarouselItems = select("#heroCarousel .carousel-item", true);
 
+  // heroCarouselItems.forEach((item, index) => {
+  //   index === 0
+  //     ? (heroCarouselIndicators.innerHTML +=
+  //         "<li data-bs-target='#heroCarousel' data-bs-slide-to='" +
+  //         index +
+  //         "' class='active'></li>")
+  //     : (heroCarouselIndicators.innerHTML +=
+  //         "<li data-bs-target='#heroCarousel' data-bs-slide-to='" +
+  //         index +
+  //         "'></li>");
+  // });
+
   heroCarouselItems.forEach((item, index) => {
-    index === 0
-      ? (heroCarouselIndicators.innerHTML +=
-          "<li data-bs-target='#heroCarousel' data-bs-slide-to='" +
-          index +
-          "' class='active'></li>")
-      : (heroCarouselIndicators.innerHTML +=
-          "<li data-bs-target='#heroCarousel' data-bs-slide-to='" +
-          index +
-          "'></li>");
+    heroCarouselIndicators.innerHTML +=
+      `<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="${index}"` +
+      `${index === 0 ? ' class="active" aria-current="true"' : ''} aria-label="Slide ${index + 1}"></button>`;
   });
+  
 
   /**
    * Porfolio isotope and filter
