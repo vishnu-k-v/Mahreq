@@ -236,7 +236,7 @@ h6 {
   opacity: 0;
   visibility: hidden;
   background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  box-shadow: 0px 0px 30px rgb(127, 137,161,0.25);
   transition: 0.3s;
 }
 
@@ -324,7 +324,7 @@ h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(17, 17, 17, 0.9);
+  background: rgb(17, 17, 17,0.9);
   transition: 0.3s;
   z-index: 999;
 }
@@ -564,9 +564,9 @@ h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: black;
-  border-color: #DFC9BB;
-  color: #DFC9BB;
+  background: rgb(228, 216, 216);
+  border-color: #126973;
+  color: #126973;
 }
 
 @media (max-width: 768px) {
@@ -658,7 +658,7 @@ section {
 }
 
 .about .image {
-  background: url("../img/about.jpg") center center no-repeat;
+  background: url("../img/about1.jpg") center center no-repeat;
   background-size: cover;
   min-height: 400px;
 }
@@ -760,13 +760,13 @@ section {
 .clients2 .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #fff;
+  background-color: #ffffff;
   opacity: 1;
-  background-color: #ddd;
+  background-color: #dbd9d9;
 }
 
 .clients2 .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #fffef9;
+  background-color: #126973;
 }
 
 /*--------------------------------------------------------------
@@ -1010,12 +1010,12 @@ section {
   overflow: hidden;
   z-index: 1;
   /* background: rgba(42, 42, 42, 0.7); */
-  background: #000;
+  background: #ffffff;
 }
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(42, 42, 42, 0.7);
+  background: rgba(13, 132, 148, 0.7);
   position: absolute;
   left: 0;
   right: 0;
@@ -1126,7 +1126,7 @@ section {
 
 .portfolio-details .portfolio-info {
   padding: 30px;
-  box-shadow: 0px 0 30px rgba(42, 42, 42, 0.08);
+  box-shadow: 0px 0 30px rgba(4, 122, 143, 0.993);
 }
 
 .portfolio-details .portfolio-info h3 {
@@ -1660,8 +1660,8 @@ section {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #2a2a2a;
-  color: #fff;
+  background: #ffffff;
+  color: #126973;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1777,7 +1777,7 @@ section {
 }
 
 #whatsapp-button img {
-  width: 60px; /* Adjust the width as needed */
+  width: 30px; /* Adjust the width as needed */
   height: auto; /* Maintain the aspect ratio */
 }
 #whatsapp-button:hover::after {
@@ -1814,7 +1814,7 @@ section {
   padding: 20px;
   background-color: #fefdfd;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgb(252, 249, 249);
 }
 
 /*WHY US TABS
@@ -1844,14 +1844,14 @@ section {
 }
 
 .button-container button:hover {
-  background: #0b0b0a;
-  border-color: #0b0b0a;
+  background: #ffffff;
+  border-color: #ffffff;
   color: #DFC9BB;
 }
 
 .button-container .active {
-  background: #0b0b0a;
-  border-color: #0b0b0a;
+  background: #f5f2f0;
+  border-color: #126973;
   color: #DFC9BB;
 }
 
@@ -1873,7 +1873,7 @@ section {
 
 .cta {
   background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../img/slide/slide10.jpg") center center no-repeat;
+    url("../img/slide/slide13.jpg") center center no-repeat;
   background-size: cover;
   padding: 60px 0;
   color: white;
@@ -1896,27 +1896,27 @@ section {
 }
 
 .sec-banner .description {
-  line-height: 1.9;
+  line-height: 2.0;
   text-align: center;
-  font-size: 18px;
+  font-size: 20px;
   font-style: italic;
   color: #fff;
   margin-top: 13%;
 }
 
-.sec-banner .image {
+/*.sec-banner .image {
   background: url("../img/travel.jpg") center center no-repeat;
   background-size: cover;
   min-height: 370px;
   width: 100%;
-}
+}*/
 
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("../img/testimonials-bg.jpg") no-repeat;
+  background: url("../img/testimonials1.avif") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
