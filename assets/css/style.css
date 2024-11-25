@@ -869,13 +869,13 @@ section {
 --------------------------------------------------------------*/
 .why-us {
   background-color:  rgba(19, 109, 118);
-  color: white;
+  color: rgb(255, 255, 255);
 }
 .why-us .box {
   padding: 50px 30px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   transition: all ease-in-out 0.3s;
-  background-color: #F0EFED;
+  background-color: #ffffff;
 }
 
 .why-us .box span {
@@ -911,6 +911,11 @@ section {
 .why-us .box:hover p,
 .why-us .box:hover .service_link {
   color: #fff;
+  
+}
+
+.why-us .box:hover .icon{
+  background: #fff;
 }
 .why-us .box img {
   max-width: 100%;
@@ -933,7 +938,7 @@ section {
   width: 80px;
   height: 80px;
   margin-bottom: 20px;
-  background: #fff;
+  background: #DFC9BB;
   border-radius: 50%;
   transition: 0.5s;
   color: #126973;
@@ -1845,14 +1850,14 @@ section {
 
 .button-container button:hover {
   background: #ffffff;
-  border-color: #ffffff;
-  color: #DFC9BB;
+  border-color: #126973;
+  color: #126973;
 }
 
 .button-container .active {
   background: #f5f2f0;
   border-color: #126973;
-  color: #DFC9BB;
+  color: #126973;
 }
 
 .content {
@@ -2353,7 +2358,6 @@ section {
   padding: 20px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
@@ -2363,7 +2367,6 @@ section {
 }
 
 .testimonial-header {
-  display: flex;
   align-items: center;
   margin-bottom: 15px;
 }
@@ -2408,3 +2411,20 @@ section {
   color: #000000 !important;
   margin: 0;
 }
+
+
+.swiper-pagination-bullet {
+  width: 50px;            
+  height: 4px;          
+  background-color: #000; 
+  opacity: 0.7;         
+  margin: 0 5px;        
+  border-radius: 0;      
+}
+
+
+.swiper-pagination-bullet-active {
+  background-color: #ff5733; 
+  opacity: 1;                
+}
+
